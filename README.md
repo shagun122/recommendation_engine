@@ -58,4 +58,23 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
+---
+
+```bash
+recommendation-system/
+│
+├── data/               # Datasets
+├── models/             # Trained/saved models
+├── recommender/        # Core recommendation logic
+│   ├── engine.py
+│   ├── utils.py
+│   └── __init__.py
+├── config/             # Configuration files
+├── main.py             # Entry point
+├── requirements.txt    # Dependencies
+└── README.md           # Documentation
+
+---
+
+
 
